@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Endereço - ABD Fotografias</title>
+    <style>
+        /* Estilos específicos para o mapa */
+        .map-container {
+            width: 100%;
+            height: 380px;
+            margin-top: 20px;
+            border: 1px solid #e0e0e0;
+        }
+    </style>
+    <!-- Incluir a API do Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3iXLjzSOkW-35_kXQONMxT6NxuFvS6Xg"></script>
+    <script>
+        // Função para inicializar o mapa
+        function initMap() {
+            var abdFotografias = { lat: -10.871971553451045, lng: -61.964706730298886 }; // Coordenadas do endereço
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: abdFotografias,
+                zoom: 15 // Nível de zoom do mapa
+            });
+            var marker = new google.maps.Marker({
+                position: abdFotografias,
+                map: map,
+                title: 'ABD Fotografias'
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ABD Fotografias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="endereco.html">Endereço</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="address">
+            <h2>Nosso Endereço</h2>
+            <div class="map-container" id="map"></div>
+            <p>ABD Fotografias</p>
+            <p>Rua Fotografia, 123</p>
+            <p>Cidade Fotográfica</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ABD Fotografias</p>
+    </footer>
+    <script>
+        // Chama a função para inicializar o mapa quando a página estiver carregada
+        window.onload = function() {
+            initMap();
+        };
+    </script>
+</body>
+</html>
