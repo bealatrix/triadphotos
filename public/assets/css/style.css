@@ -1,14 +1,14 @@
 <<<<<<< HEAD
 /* Reset padrão */
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 /* Estilos globais */
 body {
-    font-family: 'Lobster', cursive, Arial, sans-serif;
-    background-color: #f8f8f8;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color: #fff;
+    background-color: ;
     padding: 20px 0;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -69,7 +69,7 @@ nav a {
     border: 1px solid #e0e0e0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -115,14 +115,60 @@ nav a {
     font-weight: bold;
     color: #333;
 }
+.gallery{
+margin: 5px; 
+padding: 5px;}
 
-footer {
+//CARROSSEL
+
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    max-width: 100%;
     text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-top: 1px solid #e0e0e0;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    color: #666;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-controls {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+     justify-content: space-between 
+}
+
+.carousel-controls .prev,
+.carousel-controls .next {
+
+    
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+
+
 =======
 /* Reset some default styles */
 body,
