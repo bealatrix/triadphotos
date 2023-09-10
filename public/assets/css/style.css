@@ -1,5 +1,10 @@
 <<<<<<< HEAD
 /* Reset padrão */
+li {
+  margin: 0;
+  padding: 0;
+}
+
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -55,6 +60,8 @@ nav a {
     font-size: 2rem;
     color: #d4af37;
     margin-bottom: 20px;
+    text-align: center;
+    padding: 50px 0;
 }
 
 .gallery {
@@ -82,6 +89,8 @@ nav a {
     margin-top: 10px;
     color: #666;
     font-style: italic;
+      max-width: 100%;
+  border-radius: 5px;
 }
 
 .testimonials {
@@ -117,7 +126,11 @@ nav a {
 }
 .gallery{
 margin: 5px; 
-padding: 5px;}
+padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
 //CARROSSEL
 
