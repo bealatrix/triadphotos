@@ -283,13 +283,18 @@ body.active {
   width: 100%;
   transition: var(--transition-1);
   z-index: 4;
+  padding-block: 12px;
+  background: var(--bg-secondary);
+  box-shadow: var(--shadow-1);
+  padding: 8rem;
 }
 
+/*
 .header.active {
   padding-block: 12px;
   background: var(--bg-secondary);
   box-shadow: var(--shadow-1);
-}
+}*/
 
 .header .container {
   display: flex;
@@ -506,6 +511,7 @@ main {
 
 .quemsomos {
   padding-block: var(--section-padding);
+  padding: 4rem;
 }
 
 .quemsomos-banner {
@@ -522,6 +528,14 @@ main {
 .quemsomos .btn-secondary {
   margin-bottom: 10px;
 }
+/*-----------------------------------*\
+ * #AGENDA
+\*-----------------------------------*/
+
+.agenda {
+  padding-block: var(--section-padding);
+  padding: 8rem;
+}
 
 /*-----------------------------------*\
  * #GALERIA
@@ -529,6 +543,7 @@ main {
 
 .galeria {
   padding-block: var(--section-padding);
+  padding: 8rem;
 }
 
 .galeria-list > li {
@@ -600,8 +615,11 @@ main {
 }
 /*-----------------------------------*\
  * #LOCALIZAÇÃO
-\*-----------------------------------*
-
+\*-----------------------------------*/
+.localizacao {
+  padding-block: var(--section-padding);
+  padding: 8rem;
+}
 
 /*-----------------------------------*\
  * #CONTATO
@@ -609,6 +627,7 @@ main {
 
 .contato {
   padding-block: var(--section-padding);
+  padding: 8rem;
 }
 
 .contato-content {
@@ -749,6 +768,7 @@ textarea.input-field {
   padding-block: 20px;
   text-align: center;
   box-shadow: var(--shadow-1);
+
 }
 
 .footer .logo {
@@ -993,7 +1013,6 @@ textarea.input-field {
 
   .hero img {
     height: 100%;
-    width: auto;
     margin-inline: auto;
   }
 
@@ -1150,10 +1169,9 @@ textarea.input-field {
    */
 
   .container {
-    max-width: 1150px;
+    max-width: 100%;
   }
-
-  .section-title {
+  */ .section-title {
     max-width: 460px;
   }
 
