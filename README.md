@@ -46,9 +46,9 @@ Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o tiver,
 
 ## Desenvolvedores
 
-Adrian Henrique Ferreira GitHub -> @
-Beatriz Vitória Garcia Rosa GitHub -> @bealatrix
-Danilo Saiter da Silva GitHub-> @Niliotiii
+- Adrian Henrique Ferreira GitHub -> @adrian.ferreira
+- Beatriz Vitória Garcia Rosa GitHub -> @bealatrix
+- Danilo Saiter da Silva GitHub-> @Niliotiii
 
 ## Créditos
 @JackResponsivePortifolio
