@@ -194,6 +194,34 @@
         <section class="agenda" id="agenda">
           <div class="agenda-content section-content">
             <p class="section-subtitle">Agenda</p>
+            <div id="calendar-container">
+             <div id="calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?src=858e80cddcbbd6570c1d8fe960d3970e0d1e38ff8165b0bd322df5e08ff8b4e0%40group.calendar.google.com&ctz=America%2FBoa_Vista" style="border: 0" 
+                width=100% 
+                height="500" 
+                frameborder="0" 
+                scrolling="no"> ></iframe>
+            </iframe>
+            </div>
+            </div>
+            <style>
+              #calendar-container {
+                background-color: #f5f5f5;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                max-width: 100%;
+                margin: auto;
+              }
+               #map {
+                background-color: #f5f5f5;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                max-width: 100%;
+                margin: auto;
+              }
+            </style>
           </div>
         </section>
 
@@ -370,7 +398,10 @@
         <section class="localizacao" id="localizacao">
           <div class="localizacao-content section-content">
             <p class="section-subtitle">Localizacao</p>
+            <div id="map" style="height:400px; width:100%;"></div>
+
           </div>
+
         </section>
 
         <!-- 
@@ -552,6 +583,7 @@
 
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
+          
         </section>
       </article>
     </main>
@@ -575,7 +607,6 @@
     <!-- 
     - #GO TO TOP
   -->
-
     <a href="#top" class="go-top" data-go-top title="Go to Top">
       <ion-icon name="arrow-up"></ion-icon>
     </a>
@@ -596,5 +627,20 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG73z529J38E7ew5Kth3JgXrkYsfwMEWA&callback=initMap" async defer></script>
+    <script>
+  function initMap() {
+    var localizacao = { lat: -10.8818278, lng: -61.9679908}; 
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: localizacao
+    });
+    var marker = new google.maps.Marker({
+      position: localizacao,
+      map: map
+    });
+  }
+</script>
+
   </body>
 </html>
