@@ -32,6 +32,7 @@ Obs. Certifique-se de ter o Python 3 instalado. Se não tiver, faça o download 
    ```
 
 5. **Acesse o Navegador**
+
 Abra seu navegador da web e vá para http://localhost:8000 para visualizar o site.
 
 ## Requisitos
