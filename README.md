@@ -1,24 +1,57 @@
-<h1 align="center"> </h1>
+# Projeto TriadPhotos - Programação Web I
 
-<p align="center">
-TriadPhotos (Under Construction) <br/>
-Objeto Avaliativo de estudo na disciplina Programação Web I <br/>
-</p>
+Bem-vindo ao Projeto TriadPhotos desenvolvido como parte da disciplina de Programação Web I do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas no IFRO-Campus Ji-Paraná.
 
-<br>
- 
-<p align="center">
-  <img alt="TriadPhotos" src=".github/logotriad.jpg" width="100%">
-</p>
+## Sobre o Projeto
 
-## 🚀 Tecnologias <br/>
+Este projeto é uma exposição de fotos simples, criada utilizando HTML, JavaScript e CSS. Proporciona uma experiência visual agradável para explorar diferentes fotografias.
 
-Este site esta sendo desenvolvido com as seguintes tecnologias:
+## Como Iniciar o Projeto
 
-- HTML e CSS
+Para começar a explorar o site localmente, siga estas instruções:
+
+1. **Clone o Repositório:**
+ ```bash
+   git clone https://github.com/bealatrix/TriadPhotos.git
+   ```
+
+2. **Acesse o Projeto Clonado:**
+ ```bash
+   cd TriadPhotos
+   ```
+
+3. **Acesse a Pasta 'Public':**
+ ```bash
+   cd public
+   ```
+
+4. **Inicie o Servidor Local:**
+Obs. Certifique-se de ter o Python 3 instalado. Se não tiver, faça o download e a instalação em python.org.
+ ```bash
+   python -m http.server
+   ```
+
+5. **Acesse o Navegador**
+Abra seu navegador da web e vá para http://localhost:8000 para visualizar o site.
+
+## Requisitos
+
+Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o tiver, você pode baixá-lo em python.org.
+
+## Tecnologias Utilizadas
+
+- HTML
 - JavaScript
-- Git e Github
+- CSS
 
-## 💻 Projeto <br/>
+## Desenvolvedores
 
-O site TriadPhotos esta sendo criado com a intenção de divulgar o trabalho realizado pela empresa de fotografia e simplificar o contato do cliente com a empresa.
+Adrian Henrique Ferreira GitHub -> @
+Beatriz Vitória Garcia Rosa GitHub -> @bealatrix
+Danilo Saiter da Silva GitHub-> @Niliotiii
+
+## Créditos
+@JackResponsivePortifolio
+
+
+
