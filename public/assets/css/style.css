@@ -768,7 +768,8 @@ textarea.input-field {
   padding-block: 20px;
   text-align: center;
   box-shadow: var(--shadow-1);
-
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .footer .logo {
