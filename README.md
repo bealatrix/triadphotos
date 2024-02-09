@@ -12,12 +12,12 @@ Para começar a explorar o site localmente, siga estas instruções:
 
 1. **Clone o Repositório:**
  ```bash
-   git clone https://github.com/bealatrix/TriadPhotos.git
+   git clone https://github.com/bealatrix/triadphotos.git
    ```
 
 2. **Acesse o Projeto Clonado:**
  ```bash
-   cd TriadPhotos
+   cd triadphotos
    ```
 
 3. **Acesse a Pasta 'Public':**
